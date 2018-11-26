@@ -1,10 +1,10 @@
 # qrcode_medicinedispenser
 QR Code detector, Machine control, Notification handler - multiprocessed version (synchronized)
 
-Work with Raspberry Pi B+
+It works with Raspberry Pi B+
 
 requirements.txt later, dependencies:
 * python3
-* opencv (cv2)
+* opencv3.4.2 (cv2)
 * RPi.GPIO
 * pyzbar
