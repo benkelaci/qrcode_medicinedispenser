@@ -1,0 +1,35 @@
+{
+    "test": {
+        "state": 1,
+        "case_active":
+        {
+            "last_qrcode_position1": 1300,
+            "per_cnt": 200,
+            "button1": 0
+        },
+        "case1":
+        {
+            "last_qrcode_position1": 1300,
+            "per_cnt": 500,
+            "button1": 1
+        }
+    },
+    "motor": {
+        "bcm_pin_number": 26,
+        "speed": 0.01
+    },
+    "cutter":{
+        "bcm_pin_number": 16,
+        "on_period": 2
+    },
+    "position":
+    {
+        "expected_cut_position": 1600,
+        "min_distance_from_expected": 0.05,
+        "m_per_pixel": 20000
+    },
+    "file": {
+        "root_directory": "/home/pi/qrcode_detect/",
+        "log_path": "/home/pi/qrcode_detect/log/qrcode_machinecontrol.log"
+    }
+}
