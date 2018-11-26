@@ -4,7 +4,7 @@ QR Code detector, Machine control, Notification handler - multiprocessed version
 Work with Raspberry Pi B+
 
 requirements.txt later, dependencies:
-python3
-opencv (cv2)
-RPi.GPIO
-pyzbar
+* python3
+* opencv (cv2)
+* RPi.GPIO
+* pyzbar
